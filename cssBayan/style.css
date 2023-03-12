@@ -77,3 +77,8 @@ img {
 .bayan-input:checked ~ .bayan-img {
     display: block;
 }
+
+/* open on hover */
+.bayan-title:hover + .bayan-img {
+    display: block;
+}
