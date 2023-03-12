@@ -39,7 +39,7 @@ img {
     content: "";
     display: block;
     border-style: solid;
-    border-width: .8rem .5rem 0 .5rem;
+    border-width: .8rem .5rem 0;
     border-color: #fff transparent transparent transparent;
     position: absolute;
     top: 50%;
@@ -79,6 +79,6 @@ img {
 }
 
 /* open on hover */
-.bayan-title:hover + .bayan-img {
+.bayan-title:hover ~ .bayan-img {
     display: block;
 }
