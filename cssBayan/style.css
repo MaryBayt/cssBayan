@@ -82,3 +82,15 @@ img {
 .bayan-title:hover ~ .bayan-img {
     display: block;
 }
+
+@media screen and (max-width: 120rem) {
+    .bayan {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 51rem) {
+    .bayan {
+        font-size: .8rem;
+    }
+}
